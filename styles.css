@@ -21,6 +21,10 @@ a:hover {
   color: #6633ff;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -57,7 +61,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/new york.jpg') no-repeat top center ;
+  background: url('images/newyork.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -177,6 +181,7 @@ a.social:hover {
       -ms-flex-pack: distribute;
       justify-content: space-around;
       margin: 0 auto;
+      flex-wrap: wrap;
   }
 
   header {
@@ -204,3 +209,11 @@ a.social:hover {
   }
 
 }
+
+  .scale {
+      margin: 0 auto;
+
+    }
+  .col {
+    flex: 1 50%;
+  }
