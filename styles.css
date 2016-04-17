@@ -79,7 +79,7 @@ header .profile-image {
   box-shadow: 10px 1px 10px black;
 }
 header .profile-image:hover {
-  transform: scale(1.9) rotateZ(-720deg);
+  transform: scale(1.9) rotate(-720deg);
 }
 
 .tag {
