@@ -75,11 +75,13 @@ header .profile-image {
   height: 150px;
   border-radius: 50%;
   border: 3px solid white;
-  transition: all .5s;
+  transition: all 1s;
+  box-shadow: 10px 1px 10px black;
 }
 header .profile-image:hover {
-  transform: scale(1.2) rotate(5deg);
+  transform: scale(1.9) rotateZ(-720deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
